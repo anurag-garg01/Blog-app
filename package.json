@@ -9,14 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
+    "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "lodash": "^4.17.19",
-    "mongoose": "^5.10.2",
-    "request": "^2.88.2",
-    "require": "^2.4.20"
+    "mongoose": "^5.10.2"
   }
 }
