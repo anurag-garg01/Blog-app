@@ -17,7 +17,8 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/blogsDB", { useUnifiedTopology: true, useNewUrlParser: true });
+ mongoose.connect("mongodb://localhost:27017/blogsDB", { useUnifiedTopology: true, useNewUrlParser: true });
+// mongoose.connect("mongodb+srv://anurag:anurag@mernapp.iip63bc.mongodb.net/?retryWrites=true&w=majority", { useUnifiedTopology: true, useNewUrlParser: true });
 
 // Post Schema
 const postSchema = new mongoose.Schema({
